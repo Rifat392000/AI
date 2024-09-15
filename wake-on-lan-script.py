@@ -42,7 +42,7 @@ if __name__ == "__main__":
     # Get and validate router IP
     router_ip = get_valid_input("Enter the router's IP address: ", validate_ip)
 
-    # Get and validate WoL port
+    # Get and validate WoL port default 9
     wol_port = int(get_valid_input("Enter the Wake-on-LAN port (1-65535): ", validate_port))
 
     # Get and validate device MAC address
